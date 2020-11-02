@@ -40,10 +40,6 @@ class App extends React.Component {
               </a>
             </div>
           </div>
-          <p className="ps">
-            (and yeah, I've done this sparkle sky! I used GSAP. You can check it
-            on my Github)
-          </p>
         </div>
       </div>
     );
