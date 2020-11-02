@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.app {
+  background-image: linear-gradient(
+    #192841,
+    #152238,
+    #152238,
+    #152238,
+    #152238,
+    #000000
+  );
+  margin: 0;
+  color: #fff;
+  height: 100vh;
+
+  .content {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+  }
+
+  .social-media {
+    display: inline-flex;
+    position: relative;
+    margin: 25px 0;
+    .social-item {
+      img {
+        width: 50px;
+        padding: 5px;
+      }
+    }
+  }
+
+  h1 {
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .ps {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  .links {
+    background-color: #b0147d;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
