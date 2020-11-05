@@ -19,6 +19,7 @@ class App extends React.Component {
             <a
               className="links"
               href="https://www.linkedin.com/in/anacmartins/"
+              target="_blank"
             >
               {" "}
               <span className="social-media">
@@ -27,7 +28,11 @@ class App extends React.Component {
               Linkedin
             </a>{" "}
             or{" "}
-            <a className="links" href="https://github.com/anamartins">
+            <a
+              className="links"
+              href="https://github.com/anamartins"
+              target="_blank"
+            >
               <span className="social-media">
                 <img src="../../img/github-icon.png" />
               </span>
