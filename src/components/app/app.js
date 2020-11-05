@@ -15,31 +15,26 @@ class App extends React.Component {
           <h1>Hi, my name is Ana.</h1>
           <p>
             I'm a frontend wannabe and here you gonna find my website. Soon.
-            Meanwhile, you can find me on{" "}
+            Meanwhile, you can find me on <br />
             <a
               className="links"
               href="https://www.linkedin.com/in/anacmartins/"
             >
+              {" "}
+              <span className="social-media">
+                <img src="../../img/linkedin-icon.png" />
+              </span>
               Linkedin
             </a>{" "}
             or{" "}
             <a className="links" href="https://github.com/anamartins">
+              <span className="social-media">
+                <img src="../../img/github-icon.png" />
+              </span>
               Github
             </a>
             .
           </p>
-          <div className="social-media">
-            <div className="social-item">
-              <a href="https://github.com/anamartins" target="_blank">
-                <img src="../../img/github-icon.png" />
-              </a>
-            </div>
-            <div className="social-item">
-              <a href="https://www.linkedin.com/in/anacmartins" target="_blank">
-                <img src="../../img/linkedin-icon.png" />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     );

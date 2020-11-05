@@ -25,17 +25,21 @@
     width: 80%;
   }
 
-  .social-media {
-    display: inline-flex;
-    position: relative;
-    margin: 25px 0;
-    .social-item {
-      img {
-        width: 50px;
-        padding: 5px;
-      }
-    }
-  }
+  // .social-media {
+  //   display: inline-flex;
+  //   position: relative;
+  //   margin: 25px 0;
+  //   .social-item {
+  //     img {
+  //       width: 50px;
+  //       padding: 5px;
+  //     }
+  //     &:hover {
+  //       background-color: #b0147d;
+  //       border-radius: 5px;
+  //     }
+  //   }
+  // }
 
   h1 {
     font-family: "Merriweather", serif;
@@ -45,10 +49,13 @@
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     padding-top: 20px;
+    line-height: 150%;
   }
 
   .links {
     background-color: #b0147d;
+    align-items: center;
+
     color: #fff;
     text-decoration: none;
     font-weight: bolder;
@@ -57,24 +64,44 @@
     &:hover {
       text-decoration: underline;
     }
+    .social-media {
+      align-items: center;
+      padding: 0;
+
+      img {
+        width: 20px;
+        padding-right: 3px;
+      }
+    }
   }
 }
 
 @media (min-width: 550px) {
   .app {
     h1 {
-      font-size: 50px;
+      font-size: 40px;
     }
 
     p {
-      font-size: 30px;
-      padding-top: 0px;
+      font-size: 25px;
+      padding-top: 20px;
     }
 
     .content {
-      top: 25%;
-      left: 25%;
-      width: 50%;
+      top: 20%;
+      left: 10%;
+      width: 70%;
+    }
+    .links {
+      .social-media {
+        align-items: center;
+        padding: 0;
+
+        img {
+          width: 25px;
+          padding-right: 3px;
+        }
+      }
     }
   }
 }
@@ -87,13 +114,24 @@
 
     p {
       font-size: 30px;
-      padding-top: 0px;
+      padding-top: 20px;
     }
 
     .content {
       top: 25%;
       left: 25%;
-      width: 50%;
+      width: 60%;
+      .links {
+        .social-media {
+          align-items: center;
+          padding: 0;
+
+          img {
+            width: 25px;
+            padding-right: 3px;
+          }
+        }
+      }
     }
   }
 }
